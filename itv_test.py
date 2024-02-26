@@ -55,6 +55,7 @@ for url in urls:
     time.sleep(10)
     # 获取网页内容
     page_content = driver.page_source
+    print(page_content)
 
     # 关闭WebDriver
     driver.quit()
