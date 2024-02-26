@@ -7,7 +7,7 @@ import requests
 import re
 
 urls = [
-    "https://fofa.info/result?qbase64=aXA9IjIyMi4yMTcuMjQ2LjU0Ig%3D%3D",    #澳门
+    "https://fofa.info/result?qbase64=aXA9IjIyMC4xNjMuMTc4LjE0NCI%3D",    #澳门
     ]
 
 def modify_urls(url):
