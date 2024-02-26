@@ -12,7 +12,7 @@ urls = [
 
 def modify_urls(url):
     modified_urls = []
-    modified_urls.append("http://222.217.246.54:8282")
+    modified_urls.append("http://222.217.246.54:8282/")
     ip_start_index = url.find("//") + 2
     ip_end_index = url.find(":", ip_start_index)
     base_url = url[:ip_start_index]  # http:// or https://
