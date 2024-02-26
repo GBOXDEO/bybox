@@ -8,13 +8,11 @@ import re
 
 urls = [
     "https://fofa.info/result?qbase64=aXA9IjIyMC4xMzQuNzQuMTQ5Ig%3D%3D",    #澳门
-    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iSGViZWki",  # Hebei (河北)
-    "https://www.zoomeye.org/searchResult?q=%2Fiptv%2Flive%2Fzh_cn.js%20%2Bcountry%3A%22CN%22%20%2Bsubdivisions%3A%22guangdong%22",    #广东
     ]
 
 def modify_urls(url):
     modified_urls = []
-    modified_urls.append("http://220.134.74.149:6868/")
+    modified_urls.append("http://222.217.246.54:8282/")
     ip_start_index = url.find("//") + 2
     ip_end_index = url.find(":", ip_start_index)
     base_url = url[:ip_start_index]  # http:// or https://
